@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natour",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuyaaseer/Natour-project.git"
+  },
+  "author": "abdulkareem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuyaaseer/Natour-project/issues"
+  },
+  "homepage": "https://github.com/abuyaaseer/Natour-project#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

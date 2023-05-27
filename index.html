@@ -238,6 +238,13 @@
       </section>
 
       <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">we make people genuinely happy</h2>
         </div>
@@ -245,15 +252,105 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="person on a tour" class="story__img">
+              <img
+                src="img/nat-8.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">mary smith</figcaption>
             </figure>
             <div class="story__text">
               <h3 class="heading-tertiary">
                 i had the best week ever with my family
               </h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dolores cumque eum asperiores nihil numquam aliquam iure a illo repellendus nam mollitia eaque, tenetur ad libero voluptates cum voluptas dolore!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                dolores cumque eum asperiores nihil numquam aliquam iure a illo
+                repellendus nam mollitia eaque, tenetur ad libero voluptates cum
+                voluptas dolore!
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">jack wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary">
+                wow! my life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                dolores cumque eum asperiores nihil numquam aliquam iure a illo
+                repellendus nam mollitia eaque, tenetur ad libero voluptates cum
+                voluptas dolore!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all stories</a>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <div class=" u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                  start booking now
+                </h2>
+              </div>
+                
+              <form action="#" class="form">
+                <div class="form__group">
+                  <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Full name"
+                  id="name"
+                  required
+                />
+                <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email address"
+                  id="email"
+                  required
+                />
+                <label for="name" class="form__label">Email address</label>
+                </div>
+                
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <span class="form__radio-button"></span>
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label for="small" class="form__radio-label">small tour group</label>
+                    
+                  </div>
+                  <div class="form__radio-group">
+                    <span class="form__radio-button"></span>
+                    <input type="radio" class="form__radio-input" id="large" name="size">
+                    <label for="large" class="form__radio-label">Large tour group</label>
+                    
+                  </div>
+                </div>
+
+              </form>
             </div>
           </div>
         </div>
